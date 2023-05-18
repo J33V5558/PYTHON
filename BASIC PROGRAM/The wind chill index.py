@@ -1,0 +1,5 @@
+print("To calculate Wind Chill Index")
+v= float(input("Enter the Wind Speed index (in km/hr): "))
+t= float(input("Enter the temperature (in degree celsius): "))
+res= 13.12 + (0.6215*t) - (11.37*v**0.16) + (0.3965*t*v**0.16)
+print(f'Wind Chill Index is {round(res)}')
